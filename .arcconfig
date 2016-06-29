@@ -1,0 +1,17 @@
+{
+  "project.name" : "quick-example",
+  "phabricator.uri" : "https://phab.tabbedout.com",
+  "repository.callsign" : "quick-example",
+  "unit.engine" : "XcodeUnitTestEngine",
+  "unit.xcode": {
+    "build": {
+      "workspace": "QuickArcExample.xcworkspace",
+      "scheme": "QuickArcExample",
+      "configuration": "Debug",
+      "destination": "platform=iOS Simulator,name=iPad Pro"
+    },
+    "coverage": {
+      "product": "QuickArcExample.app/QuickArcExample"
+    }
+  }
+}
