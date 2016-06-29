@@ -13,6 +13,8 @@
 		2E0A67401D245C7E005234C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0A673F1D245C7E005234C6 /* Assets.xcassets */; };
 		2E0A67431D245C7E005234C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0A67411D245C7E005234C6 /* LaunchScreen.storyboard */; };
 		2E0A674E1D245C7E005234C6 /* QuickArcExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0A674D1D245C7E005234C6 /* QuickArcExampleTests.swift */; };
+		64F00A832F708FD99E2956DB /* Pods_QuickArcExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EFF41A56723327286ED02E /* Pods_QuickArcExample.framework */; };
+		8BF3AAA157F42C35D70DE1FF /* Pods_QuickArcExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAC2894BF682DBC5F21A457 /* Pods_QuickArcExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		096CCE141B2D495727E17868 /* Pods-QuickArcExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickArcExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickArcExampleTests/Pods-QuickArcExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		11EFF41A56723327286ED02E /* Pods_QuickArcExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickArcExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0A67351D245C7E005234C6 /* QuickArcExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickArcExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0A67381D245C7E005234C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E0A673A1D245C7E005234C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		2E0A67491D245C7E005234C6 /* QuickArcExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickArcExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0A674D1D245C7E005234C6 /* QuickArcExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickArcExampleTests.swift; sourceTree = "<group>"; };
 		2E0A674F1D245C7E005234C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FAC2894BF682DBC5F21A457 /* Pods_QuickArcExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickArcExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB61E5742037730167D6918 /* Pods-QuickArcExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickArcExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickArcExample/Pods-QuickArcExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F286011DE4FA6480283E71 /* Pods-QuickArcExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickArcExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickArcExample/Pods-QuickArcExample.release.xcconfig"; sourceTree = "<group>"; };
+		DC106E9FFFDA8D0A5A969A3B /* Pods-QuickArcExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickArcExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickArcExampleTests/Pods-QuickArcExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F00A832F708FD99E2956DB /* Pods_QuickArcExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF3AAA157F42C35D70DE1FF /* Pods_QuickArcExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				2E0A67371D245C7E005234C6 /* QuickArcExample */,
 				2E0A674C1D245C7E005234C6 /* QuickArcExampleTests */,
 				2E0A67361D245C7E005234C6 /* Products */,
+				643E9EC52AADCE55E6AB0FE3 /* Pods */,
+				49EC16EA1A82C658F80C34B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = QuickArcExampleTests;
 			sourceTree = "<group>";
 		};
+		49EC16EA1A82C658F80C34B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11EFF41A56723327286ED02E /* Pods_QuickArcExample.framework */,
+				2FAC2894BF682DBC5F21A457 /* Pods_QuickArcExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		643E9EC52AADCE55E6AB0FE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AB61E5742037730167D6918 /* Pods-QuickArcExample.debug.xcconfig */,
+				A5F286011DE4FA6480283E71 /* Pods-QuickArcExample.release.xcconfig */,
+				DC106E9FFFDA8D0A5A969A3B /* Pods-QuickArcExampleTests.debug.xcconfig */,
+				096CCE141B2D495727E17868 /* Pods-QuickArcExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E0A67521D245C7E005234C6 /* Build configuration list for PBXNativeTarget "QuickArcExample" */;
 			buildPhases = (
+				BDD05AFD972009CBBC444408 /* [CP] Check Pods Manifest.lock */,
 				2E0A67311D245C7E005234C6 /* Sources */,
 				2E0A67321D245C7E005234C6 /* Frameworks */,
 				2E0A67331D245C7E005234C6 /* Resources */,
+				0B43E34CE5D75DB500A02CEE /* [CP] Embed Pods Frameworks */,
+				6D7EAA71B06BECDE48EDA87D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E0A67551D245C7E005234C6 /* Build configuration list for PBXNativeTarget "QuickArcExampleTests" */;
 			buildPhases = (
+				2145BB1193A1B55A0AFB8940 /* [CP] Check Pods Manifest.lock */,
 				2E0A67451D245C7E005234C6 /* Sources */,
 				2E0A67461D245C7E005234C6 /* Frameworks */,
 				2E0A67471D245C7E005234C6 /* Resources */,
+				397160701F318CA241B2AC89 /* [CP] Embed Pods Frameworks */,
+				304EC4B9F5942AA5BEBC88A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +184,7 @@
 				TargetAttributes = {
 					2E0A67341D245C7E005234C6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6HQGHHRK87;
 					};
 					2E0A67481D245C7E005234C6 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -191,6 +230,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B43E34CE5D75DB500A02CEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickArcExample/Pods-QuickArcExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2145BB1193A1B55A0AFB8940 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		304EC4B9F5942AA5BEBC88A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickArcExampleTests/Pods-QuickArcExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		397160701F318CA241B2AC89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickArcExampleTests/Pods-QuickArcExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7EAA71B06BECDE48EDA87D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickArcExample/Pods-QuickArcExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD05AFD972009CBBC444408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E0A67311D245C7E005234C6 /* Sources */ = {
@@ -327,28 +459,39 @@
 		};
 		2E0A67531D245C7E005234C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB61E5742037730167D6918 /* Pods-QuickArcExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = QuickArcExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.arc.quick.QuickArcExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		2E0A67541D245C7E005234C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F286011DE4FA6480283E71 /* Pods-QuickArcExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = QuickArcExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.arc.quick.QuickArcExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		2E0A67561D245C7E005234C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC106E9FFFDA8D0A5A969A3B /* Pods-QuickArcExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QuickArcExampleTests/Info.plist;
@@ -361,6 +504,7 @@
 		};
 		2E0A67571D245C7E005234C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096CCE141B2D495727E17868 /* Pods-QuickArcExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QuickArcExampleTests/Info.plist;
@@ -390,6 +534,7 @@
 				2E0A67541D245C7E005234C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E0A67551D245C7E005234C6 /* Build configuration list for PBXNativeTarget "QuickArcExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +543,7 @@
 				2E0A67571D245C7E005234C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

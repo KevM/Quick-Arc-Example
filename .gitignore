@@ -12,3 +12,4 @@ DerivedData
 *.gcda
 *.gcno
 *.generated.swift
+Pods/
